@@ -1,0 +1,118 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #223;
+}
+header {
+  background: #1464be;
+  color: #fff;
+  padding: 12px 0;
+  text-align: center;
+}
+.logo {
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 600px;
+  margin: 32px auto 16px auto;
+  padding: 0 12px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px #ddd8ee44;
+}
+h1 {
+  margin-top: 0;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  color: #1464be;
+}
+ul#post-list {
+  padding: 0;
+  list-style: none;
+  margin: 20px 0;
+}
+ul#post-list li {
+  border-bottom: 1px solid #e4e6eb;
+  padding: 10px 0;
+}
+ul#post-list li:last-child {
+  border: none;
+}
+.post-title {
+  font-weight: bold;
+  font-size: 1.07em;
+  color: #1464be;
+}
+.post-content {
+  margin: 4px 0 0 0;
+  font-size: 1em;
+  color: #333;
+}
+.hint {
+  color: #888;
+  font-size: 0.97em;
+  margin-top: 18px;
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  background: #f0f4f9;
+  padding: 10px 0 14px 0;
+  border-top: 1px solid #e4e6eb;
+  margin-top: 32px;
+}
+.small {
+  font-size: 0.8em;
+  color: #aaa;
+}
+form label {
+  display: block;
+  margin: 15px 0 7px 0;
+  color: #223;
+}
+input[type="text"], textarea {
+  width: 98%;
+  padding: 7px;
+  border: 1px solid #b7d1fa;
+  border-radius: 5px;
+  margin-top: 2px;
+  font-size: 1em;
+  background: #f7faff;
+}
+button[type="submit"] {
+  margin-top: 15px;
+  padding: 8px 18px;
+  border: none;
+  background: #1464be;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+button[type="submit"]:hover {
+  background: #1355a0;
+}
+@media (max-width: 700px) {
+  main {
+    max-width: 98vw;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 18px 0 0 0;
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>发帖 - 苏州中学园区校学生论坛</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">苏州中学园区校论坛</div>
+    <nav>
+      <a href="index.html">首页</a>
+      <a href="new.html">发帖</a>
+    </nav>
+  </header>
+  <main>
+    <h1>发帖</h1>
+    <form id="post-form">
+      <label>
+        标题
+        <input type="text" name="title" required maxlength="40">
+      </label>
+      <label>
+        内容
+        <textarea name="content" rows="6" required maxlength="500"></textarea>
+      </label>
+      <button type="submit">发布</button>
+    </form>
+    <p class="hint">发帖后自动返回首页。</p>
+  </main>
+  <footer>
+    &copy; 2025 苏州中学园区校学生论坛
+  </footer>
+  <script src="new.js"></script>
+</body>
+</html>
